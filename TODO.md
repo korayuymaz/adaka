@@ -36,7 +36,7 @@ Building a professional company website with Next.js, TypeScript, and shadcn/ui 
   ```bash
   npm install lucide-react react-hook-form @hookform/resolvers zod framer-motion date-fns next-seo @vercel/analytics
   ```
-- [ ] Set up version control (Git)
+- [ ✅ ] Set up version control (Git)
 - [ ] Configure project structure according to Next.js App Router
 - [ ] Set up environment variables (.env.local)
 - [ ] Configure TypeScript paths in tsconfig.json
