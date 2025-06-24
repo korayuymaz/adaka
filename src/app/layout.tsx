@@ -34,7 +34,7 @@ export default function RootLayout({
 				<AppProvider>
 					<div>
 						<LanguageBar />
-						<div className="container mx-auto">
+						<div>
 							<Header />
 							{children}
 							<Footer />
