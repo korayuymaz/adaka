@@ -1,11 +1,10 @@
 const Company = () => {
 	return (
-		<div>
-			<h1>Company</h1>
-			<p>
-				Adana Kağıt Torba San. Tic. A.Ş. is a company that produces paper bags
-				and other paper products.
-			</p>
+		<div className="max-w-7xl mx-auto h-screen flex flex-col items-center justify-center">
+			<div className="flex flex-col items-center justify-center">
+				<h2 className="text-2xl font-bold">This Page is under construction.</h2>
+				<p className="text-gray-500">Please check back later for updates.</p>
+			</div>
 		</div>
 	);
 };

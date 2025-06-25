@@ -1,3 +1,5 @@
+import GroupCompanies from "@/components/group-companies";
+
 export default function Home() {
 	return (
 		<div className="min-h-screen">
@@ -18,18 +20,26 @@ export default function Home() {
 			</div>
 
 			{/* Additional content sections can go here */}
-			{/*<div className="container mx-auto px-4 py-16">
-				<p>
+			<div className="mx-auto px-4 py-16 text-center text-lg bg-red-500 rounded-b-2xl">
+				<p className="w-1/2 mx-auto text-white">
 					Ağzı açık veya valfli, çok katlı, lamine ve altıgen dipli torba
 					üretiminde; çimento, yapı kimya, gıda ve maden sektörlerine özel
 					çözümler sunuyoruz.
 				</p>
-				<p>
-					Sürekli gelişen Ar-Ge çalışmalarımız ve yüksek kalite standartlarımızla;
-					sektörünüzün ihtiyaçlarına özel, dayanıklı ve güvenilir kağıt torba
-					çözümleri sunuyoruz.
+				{/*<p>
+					Sürekli gelişen Ar-Ge çalışmalarımız ve yüksek kalite
+					standartlarımızla; sektörünüzün ihtiyaçlarına özel, dayanıklı ve
+					güvenilir kağıt torba çözümleri sunuyoruz.
+				</p>*/}
+			</div>
+			<div className="mx-auto px-4 py-16 text-center text-lg">
+				<h2 className="text-2xl font-bold mb-4">Grup Şirketlerimiz</h2>
+				<p className="mb-4">
+					KAVİ Grup olarak kağıt sektörü dışında da faaliyet gösteren
+					şirketlerimiz.
 				</p>
-			</div>*/}
+				<GroupCompanies />
+			</div>
 		</div>
 	);
 }
