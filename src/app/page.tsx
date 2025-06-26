@@ -32,7 +32,7 @@ export default function Home() {
 					güvenilir kağıt torba çözümleri sunuyoruz.
 				</p>*/}
 			</div>
-			<div className="mx-auto px-4 py-16 text-center text-lg">
+			<div className="mx-auto py-16 text-center text-lg">
 				<h2 className="text-2xl font-bold mb-4">Grup Şirketlerimiz</h2>
 				<p className="mb-4">
 					KAVİ Grup olarak kağıt sektörü dışında da faaliyet gösteren

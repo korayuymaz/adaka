@@ -31,7 +31,7 @@ const GroupCompanies = () => {
 	];
 
 	return (
-		<div className="flex flex-col items-center justify-center bg-gray-200 rounded-2xl">
+		<div className="flex flex-col items-center justify-center bg-gray-200 rounded-lg">
 			<div className="flex flex-row gap-10 p-4">
 				{companies.map((company) => (
 					<div

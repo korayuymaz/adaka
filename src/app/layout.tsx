@@ -19,6 +19,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
 	title: "adaka",
 	description: "Adana Kağıt Torba San. Tic. A.Ş.",
+	icons: {
+		icon: "/icon.png",
+	},
 };
 
 export default function RootLayout({
