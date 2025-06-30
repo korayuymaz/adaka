@@ -10,14 +10,14 @@ const Navbar = () => {
 
 	return (
 		<>
-			<div className="flex justify-center items-center mt-4 mb-4 px-10">
+			<div className="flex items-center mt-4 mb-4 px-20">
 				<div className="w-1/4">
 					<Link href="/">
-						<Image src="/logo.png" alt="logo" width={250} height={500} />
+						<Image src="/logo.png" alt="logo" width={150} height={300} />
 					</Link>
 				</div>
 				<div className="w-3/4">
-					<ul className="flex gap-10 font-bold text-lg justify-end">
+					<ul className="flex gap-10 font-bold text-gray-500 justify-end items-center">
 						<li
 							className={
 								pathname === "/company"
@@ -43,7 +43,11 @@ const Navbar = () => {
 									: "" + "hover:text-[#cc0000]"
 							}
 						>
-							<Link href="/contacts">Contacts</Link>
+							<Link href="/contacts">
+								<button className="bg-red-500 text-white px-4 py-2 rounded-md">
+									Contact Us
+								</button>
+							</Link>
 						</li>
 					</ul>
 				</div>

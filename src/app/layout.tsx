@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 	title: "adaka",
 	description: "Adana Kağıt Torba San. Tic. A.Ş.",
 	icons: {
-		icon: "/icon.png",
+		icon: "./icon.png",
 	},
 };
 
