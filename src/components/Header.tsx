@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ChevronDown, Menu, X, Linkedin, Share2 } from "lucide-react";
+import { ChevronDown, Menu, X } from "lucide-react";
 import { languages, type Language, getTranslation } from "@/lib/i18n";
 
 interface HeaderProps {
@@ -26,7 +26,7 @@ export default function Header({ currentLang }: HeaderProps) {
 			<div className="bg-zinc-800 text-white py-2 px-4">
 				<div className="container mx-auto flex justify-end">
 					<div className="flex space-x-4 text-sm">
-						{Object.entries(languages).map(([lang, label]) => (
+						{Object.keys(languages).map((lang) => (
 							<Link
 								key={lang}
 								href={`/${lang}`}

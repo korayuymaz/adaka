@@ -137,7 +137,7 @@ export default async function ProductSectorsPage({
 			<section className="bg-gray-50 py-20">
 				<div className="container mx-auto px-4">
 					<div className="grid lg:grid-cols-2 gap-12">
-						{sectors.map((sector, index) => (
+						{sectors.map((sector) => (
 							<div
 								key={sector.title}
 								className="bg-white rounded-2xl shadow-lg overflow-hidden"
