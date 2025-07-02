@@ -13,14 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "ADAKA ambalaj üretimi - Caring for your goods",
+	title: "ADAKA | Kraft Kağıt Çuval & Endüstriyel Ambalaj Üretimi - Adana",
 	description:
 		"ADAKA, hem vanalı hem de açık ağızlı büyük kapasiteli endüstriyel çuval üretiminde uzmanlaşmıştır. ADAKA güvenilir ve saygın bir pazar oyuncusu olarak uluslararası prestije sahip müşteriler sunmaktadır.",
-	keywords:
-		"ambalaj, kraft kağıt çuval, vanalı çuval, açık ağızlı çuval, endüstriyel ambalaj, ADAKA",
+	keywords: `kraft paper sack, valve paper bag, kraft paper bag, valve paper sack, ambalaj, kraft kağıt çuval, vanalı çuval, açık ağızlı çuval,
+			endüstriyel ambalaj, endüstriyel ambalaj üretimi,
+			kraft kağıt çuval üretimi, vanalı çuval üretimi,
+			kraft kağıt çuval fiyatları, vanalı çuval fiyatları, endüstriyel ambalaj fiyatları, 
+			price, Adana, ADAKA, Adana çuval üretimi, kraft torba
+			`,
 	authors: [{ name: "ADAKA" }],
 	openGraph: {
-		title: "ADAKA ambalaj üretimi - Caring for your goods",
+		title: "ADAKA Kağıt Çuval & Endüstriyel Ambalaj Üretimi - Adana",
 		description:
 			"ADAKA, hem vanalı hem de açık ağızlı büyük kapasiteli endüstriyel çuval üretiminde uzmanlaşmıştır.",
 		type: "website",
@@ -55,7 +59,7 @@ export const metadata: Metadata = {
 		},
 	},
 	icons: {
-		icon: "/adaka-favicon.png",
+		icon: "/favicon.ico",
 	},
 };
 
@@ -67,10 +71,16 @@ export default function RootLayout({
 	return (
 		<html lang="tr">
 			<head>
-				<link rel="icon" href="/images/adaka-favicon.png" sizes="any" />
-				<link rel="icon" href="/images/adaka-favicon.png" type="image/png" />
-				<link rel="apple-touch-icon" href="/images/adaka-favicon.png" />
+				<link rel="icon" href="/favicon.ico" sizes="any" />
+				<link rel="icon" href="/favicon.ico" type="image/png" />
+				<link rel="apple-touch-icon" href="/favicon.ico" />
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
+				<meta name="robots" content="noindex, nofollow" />
+				<meta
+					name="description"
+					content={metadata.description || ""}
+					key="desc"
+				/>
 			</head>
 			<body className={`${geist.variable} ${geistMono.variable} antialiased`}>
 				{children}
