@@ -39,20 +39,20 @@ export default async function CompanyPage({ params }: CompanyPageProps) {
 			{/* Company Story */}
 			<section className="py-20">
 				<div className="container mx-auto px-4">
+					<h2 className="text-3xl md:text-4xl font-bold text-red-600 mb-6">
+						{t("ourStory")}
+					</h2>
 					<div className="grid lg:grid-cols-2 gap-12 items-center">
 						<div>
-							<h2 className="text-3xl md:text-4xl font-bold text-red-600 mb-6">
-								{t("ourStory")}
-							</h2>
 							<div className="space-y-6 text-lg text-gray-700">
 								<p>{t("companyStoryText1")}</p>
 								<p>{t("companyStoryText2")}</p>
 								<p>{t("companyStoryText3")}</p>
 							</div>
 						</div>
-						<div className="rounded-2xl overflow-hidden">
+						<div className="rounded-2xl overflow-hidden hidden md:block">
 							<Image
-								src="/images/products/kraft.jpg"
+								src="/factory-images/factory.png"
 								alt="ADAKA Factory"
 								width={600}
 								height={400}
