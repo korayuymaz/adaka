@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { type Language, getTranslation } from "@/lib/i18n";
+import Certificates from "@/components/Certificates";
 
 interface SustainabilityPageProps {
 	params: Promise<{ lang: string }>;
@@ -130,49 +131,7 @@ export default async function SustainabilityPage({
 
 			{/* Certifications */}
 			<section className="py-20" id="certifications">
-				<div className="container mx-auto px-4">
-					<h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-red-600">
-						{t("certifications")}
-					</h2>
-					<div className="grid md:grid-cols-4 gap-8 max-w-4xl mx-auto">
-						<div className="text-center">
-							<div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-								<span className="text-red-600 text-sm font-bold">FSC</span>
-							</div>
-							<h3 className="font-bold mb-2">FSC Sertifikalı</h3>
-							<p className="text-gray-600 text-sm">
-								Orman Koruma Konseyi sertifikalı sürdürülebilir kaynak tedariki
-							</p>
-						</div>
-						<div className="text-center">
-							<div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-								<span className="text-red-600 text-sm font-bold">ISO</span>
-							</div>
-							<h3 className="font-bold mb-2">ISO 14001</h3>
-							<p className="text-gray-600 text-sm">
-								Çevresel yönetim sistemi sertifikasyonu
-							</p>
-						</div>
-						<div className="text-center">
-							<div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-								<span className="text-red-600 text-sm font-bold">PEFC</span>
-							</div>
-							<h3 className="font-bold mb-2">PEFC Sertifikalı</h3>
-							<p className="text-gray-600 text-sm">
-								Orman sertifikasyonu onay programı
-							</p>
-						</div>
-						<div className="text-center">
-							<div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4">
-								<span className="text-red-600 text-sm font-bold">CE</span>
-							</div>
-							<h3 className="font-bold mb-2">CE Markalaması</h3>
-							<p className="text-gray-600 text-sm">
-								Avrupa uygunluk standartları uyumluluğu
-							</p>
-						</div>
-					</div>
-				</div>
+				<Certificates params={params} />
 			</section>
 
 			{/* Future Goals */}
