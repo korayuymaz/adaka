@@ -86,7 +86,7 @@ export default function Footer({ currentLang }: FooterProps) {
 						<ul className="space-y-3 text-right">
 							<li>
 								<Link
-									href="mailto:info@sis.sm"
+									href="mailto:info@adaka.com.tr"
 									className="text-gray-300 hover:text-gray-300 transition-colors"
 								>
 									{t("workForUs")}
