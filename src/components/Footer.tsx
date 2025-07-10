@@ -30,8 +30,11 @@ export default function Footer({ currentLang }: FooterProps) {
 							{t("customerDescription")}
 						</p>
 						<p className="text-gray-300 mb-6 max-w-md text-sm">
-							Şahin, 33400 Tarsus/Mersin <br />
-							Türkiye
+							ADAKA Adana Kağıt San. Tic. A.Ş. <br />
+							Adana Organize Sanayi Bölgesi <br />
+							Sağlıklı Mah. 2. Cadde No:8 <br />
+							Tarsus OSB <br />
+							Mersin/Türkiye
 						</p>
 						<p className="text-gray-300 mb-6 max-w-md">Tel. (0324) 651 53 53</p>
 						<p className="text-gray-300 mb-6 max-w-md">info@adaka.com.tr</p>

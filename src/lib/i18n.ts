@@ -33,8 +33,8 @@ export const translations = {
 		heroSubtitle: "Her ihtiyaç için bir çözüm",
 
 		// Content
-		companyDescription: `${durationSinceMay2014} yılı aşkın süredir korumak ve muhafaza etmek için yenilikçi, çevre dostu ve etkili ambalaj geliştiriyor ve tedarik ediyoruz.`,
-		packagingTitle: "AMBALAJ",
+		companyDescription: `${durationSinceMay2014} yılı aşkın süredir korumak ve muhafaza etmek için yenilikçi, çevre dostu ve etkili kraft torba geliştiriyor ve tedarik ediyoruz.`,
+		packagingTitle: "KRAFT KAĞIT TORBALAR",
 		kraftSacksTitle: "Kraft kağıt torbalar",
 		kraftSacksDescription:
 			"Hem valfli hem de açık ağızlı büyük kapasiteli endüstriyel torba üretiminde uzmanlaştık.",
@@ -52,11 +52,11 @@ export const translations = {
 		testimonialAkcansa:
 			'"Ağır yük taşıma kapasitesi gerektiren ürünlerimiz için ADAKA\'nın dayanıklı kraft torbaları ideal çözüm. Kalite standartları gerçekten yüksek"',
 		testimonialSisecam:
-			'"Cam endüstrisi özel gereksinimlerimiz için ADAKA\'nın geliştirdiği özel ambalaj çözümleri çok değerli. Teknik destek ve hizmet kaliteleri mükemmel"',
+			'"Cam endüstrisi özel gereksinimlerimiz için ADAKA\'nın geliştirdiği özel kraft torba çözümleri çok değerli. Teknik destek ve hizmet kaliteleri mükemmel"',
 		testimonialBekaert:
 			'"Endüstriyel tel ürünlerimizin ambalajlanmasında ADAKA ile uzun yıllardır başarılı bir ortaklık sürdürüyoruz. Güvenilirlik ve kalite konusunda standartları çok yüksek"',
 		testimonialMatkim:
-			'"İnşaat kimyasalları sektöründe faaliyet gösteren şirketimiz için ADAKA\'nın özel ambalaj çözümleri vazgeçilmez. Uzun vadeli ortaklığımızdan çok memnunuz"',
+			'"İnşaat kimyasalları sektöründe faaliyet gösteren şirketimiz için ADAKA\'nın özel kraft torba çözümleri vazgeçilmez. Uzun vadeli ortaklığımızdan çok memnunuz"',
 
 		// Reasons
 		reasonsTitle: "Bizi seçme nedenleri",
@@ -76,18 +76,26 @@ export const translations = {
 
 		// Company Page
 		ourStory: "Hikayemiz",
-		companyStoryText1: `ADAKA, ${durationSinceMay2014} yılı aşkın süredir ambalaj endüstrisinde güvenilir bir ortak olmuştur. Yüksek kaliteli endüstriyel ambalaj çözümleri sağlama vizyonuyla kurulan şirketimiz, kraft kağıt torba üretiminde lider bir üretici haline gelmiştir.`,
-		companyStoryText2:
-			"Yenilik, sürdürülebilirlik ve müşteri memnuniyetine olan bağlılığımız başarımızı yönlendirmiş ve dünya çapında işletmeler için güvenilir bir ortak olarak konumumuzu sağlamlaştırmıştır.",
-		companyStoryText3:
-			"Bugün inşaat, kimya, gıda ve tarım gibi çeşitli sektörlerdeki müşterilere hizmet vererek, onların özel ihtiyaçlarını karşılayan özel ambalaj çözümleri sunuyoruz.",
+		companyStoryText1:
+			"ADAKA Adana Kağıt San. ve Tic. A.Ş. Zeki KAVİ, Ferhat KAVİ, Feridun KAVİ, Hakan KAVİ ortaklığı olan Hasan Kavi Petrol Ürünleri Turizm Tic. ve San. A.Ş., Serdar Emir ERGEZ ve Süleyman ÇAKIRBEY iştirakiyle, 10.000 m2’si kapalı alan olmak üzere toplam 30.000 m2 arazi üzerine 21 Mayıs 2014 tarihinde kurulmuş, aynı yılın kasım ayında faaliyete geçerek Türkiye’deki kraft kağıt torba üreticileri arasında yerini almıştır.",
+		companyStoryText2: `İşletmede sanayinin çeşitli sektörlerinin ihtiyaç duyduğu
+			çimento, kireç, yapı ürünleri, maden, kimya, gıda ve tohum
+			torbaları; ithal edilen esmer kraft ve beyaz kraft kağıttan 5
+			kat ve 6 renk de baskıyla dışı beyaz, ara katlarda
+			polietilenli değişik ölçü ve özelliklere sahip sanayi tipi
+			torbalar olarak imal edilmekte, dış pazarda da çeşitli	
+			ülkelere ihraç edilmektedir. `,
+		companyStoryText3: `Fabrikanın yıllık kapasitesi 200
+			000 000 adettir. Fabrikamızın ürün kalitesini artırmak ve
+			maliyetleri düşürmek amacıyla yapılan yatırım planları hızla
+			hayata geçirilmektedir.`,
 		ourValues: "Değerlerimiz",
 		quality: "Kalite",
 		qualityDescription:
 			"Tüm ürünlerimizde en yüksek standartları koruyarak müşterilerimiz için güvenilirlik ve dayanıklılık sağlıyoruz.",
 		innovation: "İnovasyon",
 		innovationDescription:
-			"Araştırma ve geliştirmeye sürekli yatırım, yenilikçi ambalaj çözümlerimizi yönlendirir.",
+			"Araştırma ve geliştirmeye sürekli yatırım, yenilikçi kraft torba çözümlerimizi yönlendirir.",
 		sustainabilityShort: "Sürdürülebilirlik",
 		sustainabilityDescription:
 			"Çevresel sorumluluk, üretim süreçlerimizin ve ürün geliştirmemizin merkezindedir.",
@@ -97,7 +105,7 @@ export const translations = {
 		manufacturingText2:
 			"Hammadde seçiminden son ambalajlamaya kadar üretimin her aşamasında titiz kalite kontrol önlemleri uyguluyoruz.",
 		manufacturingText3:
-			"Deneyimli profesyonel ekibimiz, endüstri standartlarını aşan ambalaj çözümleri sunmak için onlarca yıllık uzmanlık getirir.",
+			"Deneyimli profesyonel ekibimiz, endüstri standartlarını aşan kraft torba çözümleri sunmak için onlarca yıllık uzmanlık getirir.",
 
 		// Products Page
 		valveSacksDescription:
@@ -115,9 +123,9 @@ export const translations = {
 		learnMore: "Daha Fazla Bilgi",
 		continuousInnovation: "Sürekli İnovasyon",
 		innovationText1:
-			"ADAKA'da inovasyon yaptığımız her şeyi yönlendirir. Özel Ar-Ge ekibimiz, müşterilerimizin ve endüstrinin gelişen ihtiyaçlarını karşılamak için sürekli olarak yeni ambalaj çözümleri geliştirir.",
+			"ADAKA'da inovasyon yaptığımız her şeyi yönlendirir. Özel Ar-Ge ekibimiz, müşterilerimizin ve endüstrinin gelişen ihtiyaçlarını karşılamak için sürekli olarak yeni kraft torba çözümleri geliştirir.",
 		innovationText2:
-			"Ürünlerinizi koruyan aynı zamanda çevresel sorumluluğu destekleyen ambalajlar yaratmak için son teknoloji ve sürdürülebilir malzemelere yatırım yapıyoruz.",
+			"Ürünlerinizi koruyan aynı zamanda çevresel sorumluluğu destekleyen kraft torbalar yaratmak için son teknoloji ve sürdürülebilir malzemelere yatırım yapıyoruz.",
 		innovationText3:
 			"İnovasyon odak alanlarımız arasında gelişmiş bariyer özellikler, geliştirilmiş sürdürülebilirlik ve optimize edilmiş üretim verimliliği bulunmaktadır.",
 		applications: "Uygulamalar",
@@ -141,9 +149,9 @@ export const translations = {
 		// Sustainability Page
 		environmentalCommitment: "Çevresel Bağlılığımız",
 		sustainabilityText1:
-			"ADAKA'te sürdürülebilirlik sadece bir slogan değil - işletme operasyonlarımızın her yönünü yönlendiren temel bir ilkedir. Yüksek kaliteli ambalaj çözümleri sunarken çevresel etkimizi en aza indirmeye kararlıyız.",
+			"ADAKA'te sürdürülebilirlik sadece bir slogan değil - işletme operasyonlarımızın her yönünü yönlendiren temel bir ilkedir. Yüksek kaliteli kraft torba çözümleri sunarken çevresel etkimizi en aza indirmeye kararlıyız.",
 		sustainabilityText2:
-			"Kraft kağıt torbalarımız yenilenebilir kaynaklardan yapılır ve tamamen geri dönüştürülebilir olup döngüsel ekonomiyi destekler ve ambalaj endüstrisindeki atığı azaltır.",
+			"Kraft kağıt torbalarımız yenilenebilir kaynaklardan yapılır ve tamamen geri dönüştürülebilir olup döngüsel ekonomiyi destekler ve kraft torba endüstrisindeki atığı azaltır.",
 		sustainabilityText3:
 			"Ürünlerimizin en yüksek çevresel standartları karşılamasını sağlamak için daha temiz üretim teknolojilerine ve sürdürülebilir hammaddelere sürekli yatırım yapıyoruz.",
 		sustainabilityInitiatives: "Sürdürülebilirlik Girişimlerimiz",
@@ -179,7 +187,8 @@ export const translations = {
 		zeroLandfill: "Düzenli depolama alanına gönderilen atık",
 
 		// Contact Page
-		getInTouch: "Tüm ambalaj ihtiyaçlarınız için ekibimizle iletişime geçin",
+		getInTouch:
+			"Tüm kraft torba ihtiyaçlarınız için ekibimizle iletişime geçin",
 		contactInformation: "İletişim Bilgileri",
 		headOffice: "Genel Merkez",
 		phone: "Telefon",
@@ -205,7 +214,7 @@ export const translations = {
 
 		// Product Sectors
 		servingDiverseIndustries: "Çeşitli Endüstrilere Hizmet",
-		productSectorsIntro: `${durationSinceMay2014} yılı aşkın süredir ADAKA, geniş bir endüstri yelpazesine özel ambalaj çözümleri sağlamaktadır. Kraft kağıt torbalarımız her sektörün benzersiz gereksinimlerini karşılayacak şekilde tasarlanmış olup ürünleriniz için optimal koruma, kullanım ve depolama sağlar.`,
+		productSectorsIntro: `${durationSinceMay2014} yılı aşkın süredir ADAKA, geniş bir endüstri yelpazesine özel kraft torba çözümleri sağlamaktadır. Kraft kağıt torbalarımız her sektörün benzersiz gereksinimlerini karşılayacak şekilde tasarlanmış olup ürünleriniz için optimal koruma, kullanım ve depolama sağlar.`,
 		constructionMaterials: "İnşaat Malzemeleri",
 		constructionDescription:
 			"Çimento, alçı, harç, yapıştırıcı ve yapı bileşikleri",
@@ -236,7 +245,7 @@ export const translations = {
 			"Geri dönüştürülmüş malzemeler ve atık yönetimi ürünleri",
 		recyclingApplications:
 			"Geri dönüştürülmüş plastikler, Kağıt atığı, Metal talaşları, Kompost malzemeleri, Atık tozları",
-		industrySpecificRequirements: "Sektöre Özel Ambalaj Gereksinimleri",
+		industrySpecificRequirements: "Sektöre Özel Kraft Torba Gereksinimleri",
 		barrierProtection: "Bariyer Koruması",
 		barrierDescription:
 			"Kimyasallar ve ilaçlar gibi hassas malzemeler için nem, toz ve kontaminasyon koruması.",
@@ -248,41 +257,44 @@ export const translations = {
 			"Gıda bileşenleri ve tarım ürünleri için FDA onaylı malzemeler ve gıda sınıfı özellikler.",
 		customSolutions: "Sektörünüz İçin Özel Çözümler",
 		customSolutionsText:
-			"Her endüstrinin benzersiz ambalaj gereksinimleri vardır. Uzman ekibimiz, özel ihtiyaçlarınızı karşılayan özelleştirilmiş çözümler geliştirmek için sizinle yakın çalışır.",
+			"Her endüstrinin benzersiz kraft torba gereksinimleri vardır. Uzman ekibimiz, özel ihtiyaçlarınızı karşılayan özelleştirilmiş çözümler geliştirmek için sizinle yakın çalışır.",
 		customSolutionsFeatures:
 			"Özel boyutlar ve kapasiteler, Özel bariyer özellikleri, Sektöre özel sertifikalar, Optimize edilmiş doldurma ve kullanım özellikleri, Sürdürülebilir malzeme seçenekleri",
 		readyToDiscuss: "İhtiyaçlarınızı Görüşmeye Hazır mısınız?",
 		readyToDiscussText:
-			"Sektörünüzü özel ambalaj çözümleriyle nasıl destekleyebileceğimizi keşfetmek için teknik ekibimizle iletişime geçin.",
+			"Sektörünüzü özel kraft torba çözümleriyle nasıl destekleyebileceğimizi keşfetmek için teknik ekibimizle iletişime geçin.",
 		qualityStandardsCompliance: "Kalite Standartları ve Uyumluluk",
 
 		// Common UI Elements
-		readyToEnhance: "Ambalaj çözümlerinizi geliştirmeye hazır mısınız?",
+		readyToEnhance: "Kraft torba çözümlerinizi geliştirmeye hazır mısınız?",
 		readyToEnhanceDescription:
-			"Bizimle iletişime geçin ve ambalaj çözümlerinizi geliştirmek için nasıl destekleyebileceğimizi keşfedin.",
+			"Bizimle iletişime geçin ve kraft torba çözümlerinizi geliştirmek için nasıl destekleyebileceğimizi keşfedin.",
 		qualityInnovation: "Kalite ve İnovasyon",
 		qualityInnovationDescription:
-			"Uluslararası müşterilerimizin gelişen ihtiyaçlarını karşılayan son teknoloji ambalaj çözümleri sağlamak için araştırma ve geliştirmeye sürekli yatırım.",
+			"Uluslararası müşterilerimizin gelişen ihtiyaçlarını karşılayan son teknoloji kraft torba çözümleri sağlamak için araştırma ve geliştirmeye sürekli yatırım.",
 		learnSustainability: "Sürdürülebilirlik yaklaşımımız hakkında bilgi edinin",
-		companyFullName: "ADAKA Ambalaj San. Tic. A.Ş.",
+		companyFullName: "ADAKA Kağıt San. Tic. A.Ş.",
 
 		// SEO
-		homeTitle: "ADAKA Ambalaj - Kraft Kağıt Torba Üreticisi | Türkiye",
-		homeDescription: `${durationSinceMay2014} yıllık deneyimle kraft kağıt torba üretimi. Valfli ve açık ağızlı endüstriyel torbalar. Çimento, gıda, kimya sektörlerine özel ambalaj çözümleri.`,
-		companyTitle: `Hakkımızda - ADAKA Ambalaj Şirketi | ${durationSinceMay2014} Yıllık Deneyim`,
-		companyMetaDescription: `ADAKA'nın ${durationSinceMay2014} yıllık ambalaj endüstrisi deneyimi, değerlerimiz ve üretim mükemmelliği hakkında bilgi edinin. Kalite, inovasyon ve sürdürülebilirlik odaklı yaklaşımımız.`,
-		productsTitle: "Ürünlerimiz - Kraft Kağıt Torbalar | ADAKA Ambalaj",
+		homeTitle:
+			"ADAKA Kağıt San. Tic. A.Ş. - Kraft Kağıt Torba Üreticisi | Türkiye",
+		homeDescription: `${durationSinceMay2014} yıllık deneyimle kraft kağıt torba üretimi. Valfli ve açık ağızlı endüstriyel torbalar. Çimento, gıda, kimya sektörlerine özel kraft torba çözümleri.`,
+		companyTitle: `Hakkımızda - ADAKA Kağıt San. Tic. A.Ş | ${durationSinceMay2014} Yıllık Deneyim`,
+		companyMetaDescription: `ADAKA'nın ${durationSinceMay2014} yıllık kraft kağıt torba endüstrisi deneyimi, değerlerimiz ve üretim mükemmelliği hakkında bilgi edinin. Kalite, inovasyon ve sürdürülebilirlik odaklı yaklaşımımız.`,
+		productsTitle:
+			"Ürünlerimiz - Kraft Kağıt Torbalar | ADAKA Kağıt San. Tic. A.Ş.",
 		productsMetaDescription:
 			"Valfli ve açık ağızlı kraft kağıt torbalar. Yüksek mukavemetli yapı, otomatik doldurma uyumluluğu ve özelleştirilebilir boyutlar.",
-		productSectorsTitle: "Ürün Sektörleri - ADAKA Ambalaj Çözümleri",
+		productSectorsTitle: "Ürün Sektörleri - ADAKA Kraft Kağıt Torba Çözümleri",
 		productSectorsMetaDescription:
 			"İnşaat, gıda, kimya, madencilik, ilaç ve geri dönüşüm sektörlerine özel kraft kağıt torba çözümleri. Sektörel ihtiyaçlara özel tasarım.",
-		sustainabilityTitle: "Sürdürülebilirlik - Çevre Dostu Ambalaj | ADAKA",
+		sustainabilityTitle:
+			"Sürdürülebilirlik - Çevre Dostu Kraft Kağıt Torba | ADAKA",
 		sustainabilityMetaDescription:
 			"ADAKA'nın çevresel bağlılığı, geri dönüştürülebilir malzemeler, yenilenebilir kaynaklar ve 2030 sürdürülebilirlik hedefleri.",
-		contactsTitle: "İletişim - ADAKA Ambalaj | Bize Ulaşın",
+		contactsTitle: "İletişim - ADAKA Kağıt San. Tic. A.Ş. | Bize Ulaşın",
 		contactsMetaDescription:
-			"ADAKA Ambalaj ile iletişime geçin. Ambalaj ihtiyaçlarınız için uzman ekibimizden teklif alın. Türkiye geneli hizmet.",
+			"ADAKA Kağıt San. Tic. A.Ş. ile iletişime geçin. Kraft Kağıt Torba ihtiyaçlarınız için uzman ekibimizden teklif alın. Türkiye geneli hizmet.",
 	},
 
 	it: {
@@ -342,18 +354,18 @@ export const translations = {
 			"Condizioni generali di vendita applicabili ai sacchi di carta di grande capacità",
 		// Company Page
 		ourStory: "Hikayemiz",
-		companyStoryText1: `ADAKA, ${durationSinceMay2014} yılı aşkın süredir ambalaj endüstrisinde güvenilir bir ortak olmuştur. Yüksek kaliteli endüstriyel ambalaj çözümleri sağlama vizyonuyla kurulan şirketimiz, kraft kağıt torba üretiminde lider bir üretici haline gelmiştir.`,
+		companyStoryText1: `ADAKA, ${durationSinceMay2014} yılı aşkın süredir kraft kağıt torba endüstrisinde güvenilir bir ortak olmuştur. Yüksek kaliteli endüstriyel kraft torba çözümleri sağlama vizyonuyla kurulan şirketimiz, kraft kağıt torba üretiminde lider bir üretici haline gelmiştir.`,
 		companyStoryText2:
 			"Yenilik, sürdürülebilirlik ve müşteri memnuniyetine olan bağlılığımız başarımızı yönlendirmiş ve dünya çapında işletmeler için güvenilir bir ortak olarak konumumuzu sağlamlaştırmıştır.",
 		companyStoryText3:
-			"Bugün inşaat, kimya, gıda ve tarım gibi çeşitli sektörlerdeki müşterilere hizmet vererek, onların özel ihtiyaçlarını karşılayan özel ambalaj çözümleri sunuyoruz.",
+			"Bugün inşaat, kimya, gıda ve tarım gibi çeşitli sektörlerdeki müşterilere hizmet vererek, onların özel ihtiyaçlarını karşılayan özel kraft torba çözümleri sunuyoruz.",
 		ourValues: "Değerlerimiz",
 		quality: "Kalite",
 		qualityDescription:
 			"Tüm ürünlerimizde en yüksek standartları koruyarak müşterilerimiz için güvenilirlik ve dayanıklılık sağlıyoruz.",
 		innovation: "İnovasyon",
 		innovationDescription:
-			"Araştırma ve geliştirmeye sürekli yatırım, yenilikçi ambalaj çözümlerimizi yönlendirir.",
+			"Araştırma ve geliştirmeye sürekli yatırım, yenilikçi kraft torba çözümlerimizi yönlendirir.",
 		sustainabilityShort: "Sürdürülebilirlik",
 		sustainabilityDescription:
 			"Çevresel sorumluluk, üretim süreçlerimizin ve ürün geliştirmemizin merkezindedir.",
