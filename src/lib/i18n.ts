@@ -598,59 +598,281 @@ export const translations = {
 		// Navigation
 		company: "Company",
 		products: "Products",
-		productSectors: "Product sectors",
+		productSectors: "Product Sectors",
 		sustainability: "Sustainability",
-		contacts: "Contacts",
-		valveSacks: "Valve sacks",
-		openMouthSacks: "Open-mouth sacks",
+		contacts: "Contact",
+		valveSacks: "Valve Bags",
+		openMouthSacks: "Open Mouth Bags",
+		info: "Info",
 
 		// Hero
-		heroTitle: "Caring\nfor your goods",
+		heroTitle: "Security of Your Products",
 		heroSubtitle: "A solution for every need",
 
 		// Content
-		companyDescription:
-			"We've been developing and supplying innovative, eco-friendly, effective packaging to contain and protect for more than 12 years.",
-		packagingTitle: "PACKAGING",
-		kraftSacksTitle: "Kraft paper sacks",
+		companyDescription: `We have been developing and supplying innovative, eco-friendly, and efficient kraft bags for over ${durationSinceMay2014} years to protect and preserve products.`,
+		packagingTitle: "KRAFT PAPER BAGS",
+		kraftSacksTitle: "Kraft Paper Bags",
 		kraftSacksDescription:
-			"We specialise in the production of large capacity valve and open-mouth industrial sacks.",
-		discoverProducts: "discover the products",
-		ourCustomers: "Our customers",
+			"We specialize in the production of large-capacity industrial bags, both valve and open mouth types.",
+		discoverProducts: "Discover Products",
+		ourCustomers: "Our Customers",
 		customerDescription:
-			"ADAKA is a reliable, reputable market player, serving a clientele of international prestige.",
-
-		// Testimonials
-		whatPeopleSay: "What people say about us",
+			"ADAKA is a trusted and reputable market player, serving a clientele with international prestige.",
+		whatPeopleSay: "What People Say About Us",
 		testimonialCimko:
-			'"ADAKA\'s kraft sacks have been indispensable in our cement production for 15 years. We have never had any problems with quality materials and on-time delivery"',
+			'"ADAKA\'s high-quality kraft bags are an integral part of our cement production process. They perform excellently in terms of reliable supply and timely delivery."',
 		testimonialCimsa:
-			'"Since we started working with ADAKA, we have experienced great efficiency gains in our packaging processes. A reliable business partner"',
+			'"Our collaboration with ADAKA brings great advantages in industrial packaging. Their professional approach and solution-oriented service are commendable."',
 		testimonialAkcansa:
-			'"Thanks to high-strength bags, our transportation losses have been minimized. ADAKA\'s quality standards are excellent"',
+			'"ADAKA\'s durable kraft bags are the ideal solution for our products requiring high load capacity. Their quality standards are truly high."',
 		testimonialSisecam:
-			'"ADAKA\'s special solutions for packaging our glass industry by-products are very valuable to us. Their professional approach is commendable"',
+			'"ADAKA\'s specially developed kraft bag solutions are highly valuable for our unique needs in the glass industry. Their technical support and service quality are excellent."',
 		testimonialBekaert:
-			'"The service we receive from ADAKA for packaging our industrial products is extremely successful. Quality and reliability are our priority"',
+			'"We have maintained a successful partnership with ADAKA for many years in packaging our industrial wire products. Their standards in reliability and quality are very high."',
 		testimonialMatkim:
-			'"We have been working with ADAKA in the construction chemicals sector for 8 years. Ideal partner for durable packaging solutions"',
-
+			'"For our company operating in the construction chemicals sector, ADAKA\'s specialized kraft bag solutions are indispensable. We are very satisfied with our long-term partnership."',
 		// Reasons
-		reasonsTitle: "Reasons for choosing us",
-		customerFocus: "Customer focus",
+		reasonsTitle: "Reasons to Choose Us",
+		customerFocus: "Customer Focus",
 		customerFocusDescription:
-			"We offer elasticity in delivery times. We respond to challenging situations with rapid solutions and a specialist after-sales service. We are constantly committed to satisfying every single customer.",
-		industriesWeServe: "The industries we serve",
-
+			"We offer flexibility in delivery times. We respond quickly to challenging situations with effective solutions and expert after-sales service. We constantly strive to satisfy every customer.",
+		industriesWeServe: "Industries We Serve",
 		// Footer
-		workForUs: "Work for us",
-		contactUs: "Contact us",
+		workForUs: "Work With Us",
+		contactUs: "Contact Us",
 		certifications: "Certifications",
 		cookiePolicy: "Cookie Policy",
 		privacyPolicy: "Privacy Policy",
 		generalConditions:
-			"General conditions of sale applicable to large capacity paper bags",
-		companyFullName: "ADAKA Packaging Manufacturing",
+			"General sales conditions applicable to large-capacity paper bags",
+		ourStory: "Our Story",
+		companyStoryText1:
+			"ADAKA Adana Paper Industry and Trade Inc. was established on May 21, 2014, on a 30,000 m² land—10,000 m² of which is covered—with the partnership of Hasan Kavi Petroleum Products Tourism Trade and Industry Inc. (owned by Zeki KAVİ, Ferhat KAVİ, Feridun KAVİ, and Hakan KAVİ), and the involvement of Serdar Emir ERGEZ and Süleyman ÇAKIRBEY. It began operations in November of the same year, becoming one of the kraft paper sack producers in Turkey.",
+		companyStoryText2: `The company manufactures industrial paper sacks tailored to the needs of various industrial sectors—such as cement, lime, construction materials, mining, chemicals, food, and seeds. These sacks are produced using imported brown and white kraft paper, in 5-ply configurations, with up to 6-color printing, and options such as white outer layers or polyethylene-lined intermediate layers in various sizes and specifications. They are also exported to different countries around the world.`,
+		companyStoryText3: `The annual production capacity of the factory is 200,000,000 units. Investment plans aimed at improving product quality and reducing costs are being rapidly implemented.`,
+
+		ourValues: "Our Values",
+		quality: "Quality",
+		qualityDescription:
+			"By maintaining the highest standards in all our products, we ensure reliability and durability for our customers.",
+		innovation: "Innovation",
+		innovationDescription:
+			"Continuous investment in research and development drives our innovative kraft sack solutions.",
+		sustainabilityShort: "Sustainability",
+		sustainabilityDescription:
+			"Environmental responsibility is at the core of our production processes and product development.",
+
+		manufacturingExcellence: "Manufacturing Excellence",
+		manufacturingText1:
+			"Our state-of-the-art production facilities are equipped with the latest technology to ensure precision and efficiency in every product we create.",
+		manufacturingText2:
+			"We implement rigorous quality control measures at every stage of production—from raw material selection to final packaging.",
+		manufacturingText3:
+			"Our experienced professional team brings decades of expertise to deliver kraft sack solutions that exceed industry standards.",
+		valveSacksDescription:
+			"Our valve sacks are designed for efficient filling and secure closure. Ideal for powdered and granular materials, these sacks offer excellent protection and ease of use.",
+		openMouthSacksDescription:
+			"Our open-mouth sacks offer versatility and reliability for a wide range of applications. Easy to fill and seal, these sacks provide excellent protection for various materials.",
+		highStrengthConstruction: "High-strength kraft paper construction",
+		automaticFillingCompatibility:
+			"Compatibility with automatic filling systems",
+		dustTightClosure: "Dust-tight closure system",
+		customizableSizes: "Customizable sizes and features",
+		durableMultiLayer: "Durable multi-layer construction",
+		wideOpeningFilling: "Wide opening for easy filling",
+		strongSealingCapabilities: "Strong sealing capabilities",
+		availableVariousCapacities: "Available in various capacities",
+		learnMore: "Learn More",
+
+		continuousInnovation: "Continuous Innovation",
+		innovationText1:
+			"At ADAKA, innovation drives everything we do. Our dedicated R&D team continuously develops new kraft sack solutions to meet the evolving needs of our customers and industry.",
+		innovationText2:
+			"We invest in cutting-edge technology and sustainable materials to create kraft sacks that protect your products while supporting environmental responsibility.",
+		innovationText3:
+			"Our innovation focus areas include advanced barrier properties, enhanced sustainability, and optimized production efficiency.",
+
+		applications: "Applications",
+		construction: "Construction",
+		constructionProducts: "Cement, gypsum, mortar",
+		food: "Food",
+		foodProducts: "Flour, sugar, feed",
+		chemicals: "Chemicals",
+		chemicalProducts: "Powders, granules",
+		agriculture: "Agriculture",
+		agricultureProducts: "Seeds, fertilizers",
+
+		readyToEnhanceValveSacks: "Ready to enhance your valve sacks?",
+		readyToEnhanceValveSacksDescription:
+			"Contact us to discover how we can support the enhancement of your valve sacks.",
+		readyToEnhanceOpenMouthSacks: "Ready to enhance your open-mouth sacks?",
+		readyToEnhanceOpenMouthSacksDescription:
+			"Get in touch with us to explore how we can help improve your open-mouth sack solutions.",
+		environmentalCommitment: "Our Environmental Commitment",
+		sustainabilityText1:
+			"At ADAKA, sustainability is not just a slogan – it’s a core principle that drives every aspect of our business operations. We are committed to minimizing our environmental impact while delivering high-quality kraft sack solutions.",
+		sustainabilityText2:
+			"Our kraft paper sacks are made from renewable resources and are fully recyclable, supporting the circular economy and reducing waste in the kraft sack industry.",
+		sustainabilityText3:
+			"We continuously invest in cleaner production technologies and sustainable raw materials to ensure our products meet the highest environmental standards.",
+
+		sustainabilityInitiatives: "Our Sustainability Initiatives",
+		recyclableMaterials: "Recyclable Materials",
+		recyclableDescription:
+			"100% recyclable kraft paper sacks that can be transformed into new products, supporting waste reduction.",
+		renewableResources: "Renewable Resources",
+		renewableDescription:
+			"Our kraft paper is sourced from sustainably managed forests and renewable wood fiber resources.",
+		energyEfficiency: "Energy Efficiency",
+		energyDescription:
+			"Modern production facilities powered by energy-efficient machinery and renewable energy sources wherever possible.",
+		zeroWasteGoals: "Zero Waste Goals",
+		zeroWasteDescription:
+			"Applying circular economy principles to minimize waste and maximize resource efficiency in our operations.",
+		carbonFootprint: "Carbon Footprint",
+		carbonDescription:
+			"Optimizing logistics and transportation to reduce carbon emissions across our supply chain.",
+
+		innovationSustainable: "Innovation",
+		innovationSustainableDescription:
+			"Ongoing R&D in biodegradable materials and eco-friendly production processes.",
+
+		fdaApproved: "FDA Approved",
+		fdaDescription: "Materials safe for food contact",
+		gmpCompliant: "GMP Compliant",
+		gmpDescription: "Good Manufacturing Practices",
+		brcCertified: "BRC Certified",
+		brcDescription: "British Retail Consortium standards",
+		haccpSystem: "HACCP System",
+		haccpDescription: "Hazard Analysis Critical Control Points",
+
+		our2030Goals: "Our 2030 Sustainability Goals",
+		carbonReduction: "Reduction in carbon emissions",
+		renewableEnergyGoal: "Use of renewable energy sources for production",
+		zeroLandfill: "Zero waste to landfill",
+
+		getInTouch: "Get in touch with our team for all your kraft sack needs",
+		contactInformation: "Contact Information",
+		headOffice: "Head Office",
+		phone: "Phone",
+		email: "Email",
+		businessHours: "Business Hours",
+		mondayFriday: "Monday - Friday: 08:00 - 18:00",
+		saturday: "Saturday: 08:00 - 12:00",
+		sunday: "Sunday: Closed",
+		sendMessage: "Send Us a Message",
+		ourLocation: "Our Location",
+		mapPlaceholder: "Interactive Map Placeholder\nAdana, Turkey",
+
+		name: "Full Name",
+		companyName: "Company Name",
+		emailAddress: "Email Address",
+		phoneNumber: "Phone Number",
+		subject: "Subject",
+		message: "Message",
+		sendMessageButton: "Send Message",
+		formSuccess: "Your message has been sent successfully!",
+		formError:
+			"An error occurred while sending your message. Please try again.",
+		servingDiverseIndustries: "Serving Diverse Industries",
+		productSectorsIntro: `For over ${durationSinceMay2014} years, ADAKA has been providing tailored kraft sack solutions to a wide range of industries. Our kraft paper sacks are designed to meet the unique requirements of each sector, ensuring optimal protection, usability, and storage for your products.`,
+
+		constructionMaterials: "Construction Materials",
+		constructionDescription:
+			"Cement, gypsum, mortar, adhesives, and construction compounds",
+		constructionApplications:
+			"Portland cement, Gypsum, Tile adhesives, Dry mortars, Wall compounds",
+
+		foodAgriculture: "Food & Agriculture",
+		foodDescription:
+			"Food ingredients, animal feed, agricultural products, and fertilizers",
+		foodApplications:
+			"Flour and grains, Sugar, Animal feed, Seeds, Organic fertilizers",
+
+		chemicalIndustry: "Chemical Industry",
+		chemicalDescription:
+			"Industrial chemicals, powders, granules, and specialty compounds",
+		chemicalApplications:
+			"Industrial salts, Detergent powders, Plastic granules, Chemical powders, Catalysts",
+
+		miningMinerals: "Mining & Minerals",
+		miningDescription:
+			"Extracted minerals, ores, and processed mining products",
+		miningApplications:
+			"Sand and aggregates, Clay products, Mineral powders, Limestone, Processed ores",
+
+		pharmaceutical: "Pharmaceutical",
+		pharmaceuticalDescription:
+			"Raw materials and excipients for pharmaceutical manufacturing",
+		pharmaceuticalApplications:
+			"Active ingredients, Excipients, Pharmaceutical powders, Bulk drugs, Raw materials",
+
+		recyclingWaste: "Recycling & Waste",
+		recyclingDescription: "Recycled materials and waste management products",
+		recyclingApplications:
+			"Recycled plastics, Paper waste, Metal shavings, Compost materials, Waste powders",
+
+		industrySpecificRequirements: "Industry-Specific Kraft Sack Requirements",
+		barrierProtection: "Barrier Protection",
+		barrierDescription:
+			"Moisture, dust, and contamination protection for sensitive materials like chemicals and pharmaceuticals.",
+
+		strengthDurability: "Strength & Durability",
+		strengthDescription:
+			"High tensile strength for heavy materials such as cement, aggregates, and mining products.",
+
+		foodSafety: "Food Safety",
+		foodSafetyDescription:
+			"FDA-approved materials and food-grade features for food ingredients and agricultural products.",
+
+		customSolutions: "Custom Solutions for Your Industry",
+		customSolutionsText:
+			"Each industry has unique kraft sack requirements. Our expert team works closely with you to develop customized solutions that meet your specific needs.",
+		customSolutionsFeatures:
+			"Custom sizes and capacities, Special barrier features, Industry-specific certifications, Optimized filling and handling features, Sustainable material options",
+
+		readyToDiscuss: "Ready to Discuss Your Needs?",
+		readyToDiscussText:
+			"Contact our technical team to explore how we can support your industry with specialized kraft sack solutions.",
+
+		qualityStandardsCompliance: "Quality Standards & Compliance",
+
+		// Common UI Elements
+		readyToEnhance: "Ready to enhance your kraft sack solutions?",
+		readyToEnhanceDescription:
+			"Get in touch with us to explore how we can support the improvement of your kraft sack solutions.",
+		qualityInnovation: "Quality & Innovation",
+		qualityInnovationDescription:
+			"Continuous investment in research and development to deliver state-of-the-art kraft sack solutions that meet the evolving needs of our international clients.",
+		learnSustainability: "Learn about our sustainability approach",
+		companyFullName: "ADAKA Paper Industry & Trade Inc.",
+
+		// SEO
+		homeTitle:
+			"ADAKA Paper Industry & Trade Inc. - Kraft Paper Sack Manufacturer | Turkey",
+		homeDescription: `Over ${durationSinceMay2014} years of experience in kraft paper sack production. Valve and open-mouth industrial sacks. Kraft sack solutions tailored for the cement, food, and chemical industries.`,
+
+		companyTitle: `About Us - ADAKA Paper Industry & Trade Inc. | ${durationSinceMay2014} Years of Experience`,
+		companyMetaDescription: `Learn about ADAKA’s ${durationSinceMay2014} years of experience in the kraft paper sack industry, our values, and manufacturing excellence. Our approach focuses on quality, innovation, and sustainability.`,
+
+		productsTitle:
+			"Our Products - Kraft Paper Sacks | ADAKA Paper Industry & Trade Inc.",
+		productsMetaDescription:
+			"Valve and open-mouth kraft paper sacks. High-strength structure, automatic filling compatibility, and customizable sizes.",
+
+		productSectorsTitle: "Product Sectors - ADAKA Kraft Paper Sack Solutions",
+		productSectorsMetaDescription:
+			"Kraft paper sack solutions tailored for the construction, food, chemical, mining, pharmaceutical, and recycling industries. Designed for sector-specific needs.",
+
+		sustainabilityTitle:
+			"Sustainability - Eco-Friendly Kraft Paper Sacks | ADAKA",
+		sustainabilityMetaDescription:
+			"ADAKA’s environmental commitment, recyclable materials, renewable resources, and 2030 sustainability goals.",
+
+		contactsTitle: "Contact - ADAKA Paper Industry & Trade Inc. | Get in Touch",
+		contactsMetaDescription:
+			"Get in touch with ADAKA Paper Industry & Trade Inc. Request a quote from our expert team for your kraft paper sack needs. Serving all across Turkey.",
 	},
 
 	de: {
