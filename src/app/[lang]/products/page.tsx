@@ -209,7 +209,7 @@ export default async function ProductsPage({ params }: ProductsPageProps) {
 						{t("readyToEnhance")}
 					</h2>
 					<p className="text-xl mb-8 max-w-2xl mx-auto">
-						Ambalaj çözümleriniz için uzman ekibimizle iletişime geçin ve
+						Kraft torba çözümleriniz için uzman ekibimizle iletişime geçin ve
 						ihtiyaçlarınıza en uygun ürünleri keşfedin.
 					</p>
 					<Link

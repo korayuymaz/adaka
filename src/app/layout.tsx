@@ -13,18 +13,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "ADAKA | Kraft Kağıt Çuval & Endüstriyel Ambalaj Üretimi - Adana",
+	title: "ADAKA | Kraft Kağıt Çuval & Endüstriyel Kraft Torba Üretimi - Adana",
 	description:
 		"ADAKA, hem vanalı hem de açık ağızlı büyük kapasiteli endüstriyel çuval üretiminde uzmanlaşmıştır. ADAKA güvenilir ve saygın bir pazar oyuncusu olarak uluslararası prestije sahip müşteriler sunmaktadır.",
-	keywords: `kraft paper sack, valve paper bag, kraft paper bag, valve paper sack, ambalaj, kraft kağıt çuval, vanalı çuval, açık ağızlı çuval,
-			endüstriyel ambalaj, endüstriyel ambalaj üretimi,
+	keywords: `kraft paper sack, valve paper bag, kraft paper bag, valve paper sack, kraft torba, kraft kağıt çuval, vanalı çuval, açık ağızlı çuval,
+			endüstriyel kraft torba, endüstriyel kraft torba üretimi,
 			kraft kağıt çuval üretimi, vanalı çuval üretimi,
-			kraft kağıt çuval fiyatları, vanalı çuval fiyatları, endüstriyel ambalaj fiyatları, 
+			kraft kağıt çuval fiyatları, vanalı çuval fiyatları, endüstriyel kraft torba fiyatları, 
 			price, Adana, ADAKA, Adana çuval üretimi, kraft torba
 			`,
 	authors: [{ name: "ADAKA" }],
 	openGraph: {
-		title: "ADAKA Kağıt Çuval & Endüstriyel Ambalaj Üretimi - Adana",
+		title: "ADAKA Kağıt Çuval & Endüstriyel Kraft Torba Üretimi - Adana",
 		description:
 			"ADAKA, hem vanalı hem de açık ağızlı büyük kapasiteli endüstriyel çuval üretiminde uzmanlaşmıştır.",
 		type: "website",
