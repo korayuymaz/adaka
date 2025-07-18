@@ -189,7 +189,7 @@ export default async function HomePage({ params }: HomePageProps) {
 							</div>
 							<div className="h-64 relative">
 								<Image
-									src="/images/quality-innovation.webp"
+									src="/images/quality.png"
 									alt="Quality innovation"
 									fill
 									className="object-cover rounded-b-2xl"
