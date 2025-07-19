@@ -3,6 +3,7 @@ import Link from "next/link";
 import { type Language, getTranslation } from "@/lib/i18n";
 import TestimonialsCarousel from "@/components/TestimonialsCarousel";
 import CustomerLogosGrid from "@/components/CustomerLogosGrid";
+import News from "@/components/News";
 
 interface HomePageProps {
 	params: Promise<{ lang: string }>;
@@ -142,10 +143,6 @@ export default async function HomePage({ params }: HomePageProps) {
 			{/* Reasons Section */}
 			<section className="bg-white py-20 rounded-t-3xl -mt-6 relative z-60">
 				<div className="container mx-auto px-4">
-					<h2 className="text-4xl md:text-5xl font-bold text-[#333333] text-center mb-16">
-						{t("reasonsTitle")}
-					</h2>
-
 					<div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
 						<div className="bg-red-600 text-white rounded-2xl overflow-hidden">
 							<div className="p-8">
@@ -173,28 +170,7 @@ export default async function HomePage({ params }: HomePageProps) {
 						</div>
 
 						<div className="bg-red-600 text-white rounded-2xl overflow-hidden">
-							<div className="p-8">
-								<h3 className="text-2xl font-bold mb-6">
-									{t("qualityInnovation")}
-								</h3>
-								<p className="text-lg leading-relaxed mb-6">
-									{t("qualityInnovationDescription")}
-								</p>
-								<Link
-									href={`/${currentLang}/sustainability`}
-									className="inline-block text-white underline hover:no-underline transition-all"
-								>
-									{t("learnSustainability")}
-								</Link>
-							</div>
-							<div className="h-64 relative">
-								<Image
-									src="/images/quality-innovation.webp"
-									alt="Quality innovation"
-									fill
-									className="object-cover rounded-b-2xl"
-								/>
-							</div>
+							<News />
 						</div>
 					</div>
 				</div>
