@@ -49,7 +49,7 @@ export default async function ContactsPage({ params }: ContactsPageProps) {
 									<p className="text-gray-700">
 										ADAKA Kağıt San. Tic. A.Ş.
 										<br />
-										Adana Organize Sanayi Bölgesi
+										Tarsus Organize Sanayi Bölgesi
 										<br />
 										Sağlıklı Mah. 2. Cadde No:8
 										<br />

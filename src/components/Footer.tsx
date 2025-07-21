@@ -31,7 +31,7 @@ export default function Footer({ currentLang }: FooterProps) {
 						</p>
 						<p className="text-gray-300 mb-6 max-w-md text-sm">
 							ADAKA Adana Kağıt San. Tic. A.Ş. <br />
-							Adana Organize Sanayi Bölgesi <br />
+							Tarsus Organize Sanayi Bölgesi <br />
 							Sağlıklı Mah. 2. Cadde No:8 <br />
 							Tarsus OSB <br />
 							Mersin/Türkiye
