@@ -71,6 +71,7 @@ export const translations = {
 		certifications: "Sertifikalar",
 		cookiePolicy: "Çerez Politikası",
 		privacyPolicy: "Gizlilik Politikası",
+		qualityPolicy: "Kalite Politikası",
 		generalConditions:
 			"Büyük kapasiteli kağıt torbalara uygulanabilir genel satış koşulları",
 
@@ -352,6 +353,7 @@ export const translations = {
 		certifications: "Certificazioni",
 		cookiePolicy: "Politica sui cookie",
 		privacyPolicy: "Informativa sulla privacy",
+		qualityPolicy: "Certificazione di qualità",
 		generalConditions:
 			"Condizioni generali di vendita applicabili ai sacchi di carta ad alta capacità",
 
@@ -644,6 +646,7 @@ export const translations = {
 		certifications: "Certifications",
 		cookiePolicy: "Cookie Policy",
 		privacyPolicy: "Privacy Policy",
+		qualityPolicy: "Quality Policy",
 		generalConditions:
 			"General sales conditions applicable to large-capacity paper bags",
 		ourStory: "Our Story",
@@ -1081,6 +1084,7 @@ export const translations = {
 		certifications: "Πιστοποιήσεις",
 		cookiePolicy: "Πολιτική Cookies",
 		privacyPolicy: "Πολιτική Απορρήτου",
+		qualityPolicy: "Πολιτική Ποιότητας",
 		generalConditions:
 			"Γενικοί όροι πώλησης που ισχύουν για σάκους χαρτιού μεγάλης χωρητικότητας",
 		companyFullName: "ADAKA Παραγωγή συσκευασίας",
@@ -1133,6 +1137,7 @@ export const translations = {
 		certifications: "Сертификации",
 		cookiePolicy: "Политика файлов cookie",
 		privacyPolicy: "Политика конфиденциальности",
+		qualityPolicy: "Политика качества",
 		generalConditions:
 			"Общие условия продажи, применимые к бумажным мешкам большой вместимости",
 		companyFullName: "ADAKA Производство упаковки",
@@ -1183,6 +1188,7 @@ export const translations = {
 		certifications: "الشهادات",
 		cookiePolicy: "سياسة ملفات تعريف الارتباط",
 		privacyPolicy: "سياسة الخصوصية",
+		qualityPolicy: "سياسة الجودة",
 		generalConditions:
 			"الشروط العامة للبيع المطبقة على الأكياس الورقية ذات السعة الكبيرة",
 		companyFullName: "ADAKA إنتاج التغليف",

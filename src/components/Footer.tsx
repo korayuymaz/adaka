@@ -129,6 +129,15 @@ export default function Footer({ currentLang }: FooterProps) {
 							</li>
 							<li>
 								<Link
+									href="/documents/quality-policy.pdf"
+									target="_blank"
+									className="text-gray-300 hover:text-gray-300 transition-colors"
+								>
+									{t("qualityPolicy")}
+								</Link>
+							</li>
+							<li>
+								<Link
 									href="/documents/general-conditions.pdf"
 									target="_blank"
 									className="text-gray-300 hover:text-gray-300 transition-colors text-sm"
